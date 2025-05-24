@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTac Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello, this is a simple TicTacToe game!
+    <h1>Jogo da Velha</h1>
+    <div id="gameBoard">
+        <div class="cell" data-cell-index="0"></div>
+        <div class="cell" data-cell-index="1"></div>
+        <div class="cell" data-cell-index="2"></div>
+        <div class="cell" data-cell-index="3"></div>
+        <div class="cell" data-cell-index="4"></div>
+        <div class="cell" data-cell-index="5"></div>
+        <div class="cell" data-cell-index="6"></div>
+        <div class="cell" data-cell-index="7"></div>
+        <div class="cell" data-cell-index="8"></div>
+        <svg id="winningLine" class="winning-line" viewBox="0 0 315 315" width="315" height="315"></svg>
+    </div>
+    <h2 id="status"></h2>
+
+    <script src="script.js"></script>
 </body>
 </html>
